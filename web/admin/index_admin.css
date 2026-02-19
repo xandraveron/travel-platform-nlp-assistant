@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+  :root{
+    --white-color:#fff; 
+    --dark-color:#222; 
+    --body-bg-color:#fff; 
+    --section-bg-color:#202834; 
+    --navigation-item-hover-color:#265469; 
+    --contrast-color:#307681;
+    --title-color:rgb(47, 127, 133);
+    --text-content-shadow:0 5px 25px rgba(0,0,0,0.1);
+    --box-shadow:0 5px 25px rgb(0 0 0 / 20%);
+    --scroll-bar-color:#fff;
+    --scroll-thumb-color:#282f4e;
+    --scroll-thumb-hover-color:#454f6b;
+ --blue-color:#546989;
+  }
+
+
+* {margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+body {
+    align-items: center;
+      background-color:var(--section-bg-color);
+     }
+
+    .buttons {
+        margin-bottom: 40px;
+    }
+
+    .section {
+        display: none;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .btn-primary {
+        margin-top: 10px;
+       background: var(--navigation-item-hover-color);
+       border-color: var(--navigation-item-hover-color);
+    }
+    .btn-primary.focus ,.btn-primary:focus {
+        background: var(--navigation-item-hover-color);
+       border-color: var(--body-bg-color);
+    }
+    .btn-primary:hover{
+        background: var(--contrast-color);
+    }
+
+    .btn{
+        vertical-align: baseline;
+    }
+
+    .container {
+        max-width: 1000px;
+        margin: auto;
+        padding: 20px;
+        color: var(--body-bg-color);
+
+    }
+    .container form {
+    background-color:var(--scroll-thumb-hover-color);
+    padding: 30px;
+   
+    }
+    .section{
+        max-width: 75%;
+    }
+
+    .table{
+        color:var(--body-bg-color);
+    }
+    thead{
+        background: var(--navigation-item-hover-color);
+    }
+
+    .container input.form-control,
+    .container textarea.form-control,
+    .container select.form-control {
+    height: 40px;
+    }
+
+    .messages-table textarea.form-control {
+        width:auto;
+    min-width: 80px;
+    max-width: 200px;
+    resize: vertical;
+    resize: orizontal;
+
+    min-height: 60px;
+}
+
+.messages-table form{
+    background: #202834;
+    padding:0%;
+}
