@@ -1,0 +1,6 @@
+flask
+flask-cors
+spacy
+mysql-connector-python
+python-dotenv
+rapidfuzz
