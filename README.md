@@ -62,6 +62,7 @@ TravelIdeas/
 │   └── .env.example
 ├── database/
 │   └── travel.sql
+├── demoImages/
 ├── .gitignore
 └── README.md
 ```
